@@ -622,8 +622,10 @@ section.form input[type="submit"]:hover {
         height:100vh;
         margin: 0px;
     }
-    .logo-seccion{
+    
+    section .logo-seccion{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
